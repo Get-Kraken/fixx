@@ -1,2 +1,5 @@
-# fixx
-Javascript Utility Library for normalising browser querks a
+fixx
+====
+----------
+
+JavaScript Utility Library for normalising browser quirks and modular *every-day-use* utilities
