@@ -1,0 +1,16 @@
+{
+  "name": "fixx",
+  "version": "1.1.0",
+  "description": "Utility library to mediate browser quirks",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Francois du Plessis",
+    "email": "get@kraken.today"
+  },
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "jquery": "^3.1.0"
+  }
+}
