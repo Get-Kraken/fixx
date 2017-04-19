@@ -2,7 +2,6 @@
 
 /* start ƒ utilities */
 var ƒ = ƒ || {}, fixx = ƒ;
-ƒ.stack = ƒ.window.stack || {}; // alias
 
 ƒ.debug = {
     isOn: false,
@@ -806,6 +805,8 @@ var ƒ = ƒ || {}, fixx = ƒ;
 
     return { config: config, init: init, get: get, stack: stack, unstack: unstack };
 }();
+
+ƒ.stack = ƒ.window.stack || {}; // alias
 
 ƒ.storage = {
     caniuse: {
